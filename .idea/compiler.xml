@@ -21,7 +21,7 @@
         <module name="dubbo-demo-provider" />
         <module name="dubbo-filter-cache" />
         <module name="dubbo-filter-validation" />
-        <module name="dubbo-generic-reference-demo-consumer (1)" />
+        <module name="dubbo-generic-reference-demo-consumer (2)" />
         <module name="dubbo-generic-service-demo-consumer" />
         <module name="dubbo-generic-service-demo-provider" />
         <module name="dubbo-http-demo-consumer" />
@@ -60,11 +60,17 @@
         <module name="dubbo-test-spring3" />
         <module name="hessian-lite" />
       </profile>
-      <profile name="Annotation profile for dubbo-parent" enabled="true">
-        <sourceOutputDir name="../dubbo-generic-reference-demo-consumer/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../dubbo-generic-reference-demo-consumer/target/generated-test-sources/test-annotations" />
+      <profile name="Annotation profile for dubbo-generic-reference-demo-consumer (1)" enabled="true">
+        <sourceOutputDir name="../dubbo-generic-reference-demo-provider/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../dubbo-generic-reference-demo-provider/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubbo-generic-reference-demo-consumer (2)" />
+        <module name="dubbo-generic-reference-demo-consumer (1)" />
+      </profile>
+      <profile name="Annotation profile for dubbo-all" enabled="true">
+        <sourceOutputDir name="all/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="all/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-parent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -72,7 +78,7 @@
       <module name="dubbo-bom" target="1.5" />
       <module name="dubbo-cluster" target="1.6" />
       <module name="dubbo-common" target="1.6" />
-      <module name="dubbo-config" target="1.6" />
+      <module name="dubbo-config" target="1.5" />
       <module name="dubbo-config-api" target="1.6" />
       <module name="dubbo-config-spring" target="1.6" />
       <module name="dubbo-container" target="1.6" />
@@ -90,12 +96,12 @@
       <module name="dubbo-filter-cache" target="1.6" />
       <module name="dubbo-filter-validation" target="1.6" />
       <module name="dubbo-generic-reference-demo-consumer (1)" target="1.6" />
-      <module name="dubbo-generic-reference-demo-consumer (2)" target="1.6" />
+      <module name="dubbo-generic-reference-demo-consumer (2)" target="1.5" />
       <module name="dubbo-generic-service-demo-consumer" target="1.6" />
       <module name="dubbo-generic-service-demo-provider" target="1.6" />
       <module name="dubbo-http-demo-consumer" target="1.6" />
       <module name="dubbo-http-demo-provider" target="1.6" />
-      <module name="dubbo-monitor" target="1.6" />
+      <module name="dubbo-monitor" target="1.5" />
       <module name="dubbo-monitor-api" target="1.6" />
       <module name="dubbo-monitor-default" target="1.6" />
       <module name="dubbo-parent" target="1.6" />
@@ -117,7 +123,7 @@
       <module name="dubbo-remoting-p2p" target="1.6" />
       <module name="dubbo-remoting-zookeeper" target="1.6" />
       <module name="dubbo-rest-demo-provider" target="1.6" />
-      <module name="dubbo-rpc" target="1.6" />
+      <module name="dubbo-rpc" target="1.5" />
       <module name="dubbo-rpc-api" target="1.6" />
       <module name="dubbo-rpc-default" target="1.6" />
       <module name="dubbo-rpc-hessian" target="1.6" />
@@ -135,7 +141,7 @@
       <module name="dubbo-test-examples" target="1.6" />
       <module name="dubbo-test-integration" target="1.6" />
       <module name="dubbo-test-spring3" target="1.6" />
-      <module name="hessian-lite" target="1.6" />
+      <module name="hessian-lite" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

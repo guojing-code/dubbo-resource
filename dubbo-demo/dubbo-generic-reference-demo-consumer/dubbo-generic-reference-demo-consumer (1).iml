@@ -6,20 +6,32 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6">
-    <output url="file://$MODULE_DIR$/../../target/classes" />
-    <output-test url="file://$MODULE_DIR$/../../target/test-classes" />
+    <output url="file://$MODULE_DIR$/../dubbo-generic-reference-demo-provider/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../dubbo-generic-reference-demo-provider/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
+    <content url="file://$MODULE_DIR$/../dubbo-generic-reference-demo-provider/src/main/java">
+      <sourceFolder url="file://$MODULE_DIR$/../dubbo-generic-reference-demo-provider/src/main/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../dubbo-generic-reference-demo-provider/src/main/resources">
+      <sourceFolder url="file://$MODULE_DIR$/../dubbo-generic-reference-demo-provider/src/main/resources" type="java-resource" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="dubbo-demo-api" />
+    <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:5.4.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.3.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.el:javax.el-api:2.2.4" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.web:javax.el:2.2.4" level="project" />
     <orderEntry type="module" module-name="dubbo-config-spring" />
     <orderEntry type="module" module-name="dubbo-config-api" />
     <orderEntry type="module" module-name="dubbo-monitor-api" />
     <orderEntry type="module" module-name="dubbo-filter-validation" />
-    <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
     <orderEntry type="module" module-name="dubbo-filter-cache" />
     <orderEntry type="library" name="Maven: javax.cache:cache-api:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.10.RELEASE" level="project" />
