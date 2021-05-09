@@ -13,11 +13,13 @@
       <module fileurl="file://$PROJECT_DIR$/dubbo-container/dubbo-container-log4j/dubbo-container-log4j.iml" filepath="$PROJECT_DIR$/dubbo-container/dubbo-container-log4j/dubbo-container-log4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-container/dubbo-container-logback/dubbo-container-logback.iml" filepath="$PROJECT_DIR$/dubbo-container/dubbo-container-logback/dubbo-container-logback.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-container/dubbo-container-spring/dubbo-container-spring.iml" filepath="$PROJECT_DIR$/dubbo-container/dubbo-container-spring/dubbo-container-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-demo.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-demo-api/dubbo-demo-api.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-demo-api/dubbo-demo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-demo-consumer/dubbo-demo-consumer.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-demo-consumer/dubbo-demo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-demo-injvm/dubbo-demo-injvm.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-demo-injvm/dubbo-demo-injvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-demo-provider/dubbo-demo-provider.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-demo-provider/dubbo-demo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/dependencies-bom/dubbo-dependencies-bom.iml" filepath="$PROJECT_DIR$/dependencies-bom/dubbo-dependencies-bom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-filter/dubbo-filter.iml" filepath="$PROJECT_DIR$/dubbo-filter/dubbo-filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-filter/dubbo-filter-cache/dubbo-filter-cache.iml" filepath="$PROJECT_DIR$/dubbo-filter/dubbo-filter-cache/dubbo-filter-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-filter/dubbo-filter-validation/dubbo-filter-validation.iml" filepath="$PROJECT_DIR$/dubbo-filter/dubbo-filter-validation/dubbo-filter-validation.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-generic-reference-demo-consumer/dubbo-generic-reference-demo-consumer (1).iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-generic-reference-demo-consumer/dubbo-generic-reference-demo-consumer (1).iml" />
